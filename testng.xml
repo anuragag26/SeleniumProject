@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Advantage Shopping Suite">
+
+    <test name="Home Page Test">
+
+        <classes>
+            <class name="testcases.tc1_verifyHomePage"/>
+        </classes>
+
+    </test>
+
+    <test name="Speakers Page Test">
+
+        <classes>
+            <class name="testcases.tc2_verifySpeakersPage"/>
+        </classes>
+
+    </test>
+    
+    <test name="Login Test">
+
+    	<classes>
+        	<class name="testcases.tc3_verifyLogin"/>
+    	</classes>
+
+	</test>
+	
+	<test name="Add To Cart Test">
+
+    	<classes>
+        	<class name="testcases.tc4_verifyAddToCart"/>
+    	</classes>
+
+	</test>
+
+</suite>

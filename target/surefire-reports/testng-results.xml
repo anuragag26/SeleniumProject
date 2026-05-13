@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-13T14:38:10 IST" name="Advantage Shopping Suite" finished-at="2026-05-13T14:39:28 IST" duration-ms="78007">
+    <groups>
+    </groups>
+    <test started-at="2026-05-13T14:38:10 IST" name="Home Page Test" finished-at="2026-05-13T14:38:20 IST" duration-ms="10487">
+      <class name="testcases.tc1_verifyHomePage">
+        <test-method signature="verifyHomePage()[pri:0, instance:testcases.tc1_verifyHomePage@4fb61f4a]" started-at="2026-05-13T14:38:10 IST" name="verifyHomePage" finished-at="2026-05-13T14:38:20 IST" duration-ms="10435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.tc1_verifyHomePage@4fb61f4a]" started-at="2026-05-13T14:38:20 IST" name="getResult" finished-at="2026-05-13T14:38:20 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=tc1_verifyHomePage.verifyHomePage()[pri:0, instance:testcases.tc1_verifyHomePage@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.tc1_verifyHomePage -->
+    </test> <!-- Home Page Test -->
+    <test started-at="2026-05-13T14:38:21 IST" name="Speakers Page Test" finished-at="2026-05-13T14:38:41 IST" duration-ms="20543">
+      <class name="testcases.tc2_verifySpeakersPage">
+        <test-method signature="verifySpeakersPage()[pri:0, instance:testcases.tc2_verifySpeakersPage@49139829]" started-at="2026-05-13T14:38:21 IST" name="verifySpeakersPage" finished-at="2026-05-13T14:38:41 IST" duration-ms="20538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpeakersPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.tc2_verifySpeakersPage@49139829]" started-at="2026-05-13T14:38:41 IST" name="getResult" finished-at="2026-05-13T14:38:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySpeakersPage status=SUCCESS method=tc2_verifySpeakersPage.verifySpeakersPage()[pri:0, instance:testcases.tc2_verifySpeakersPage@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.tc2_verifySpeakersPage -->
+    </test> <!-- Speakers Page Test -->
+    <test started-at="2026-05-13T14:38:41 IST" name="Login Test" finished-at="2026-05-13T14:39:00 IST" duration-ms="18530">
+      <class name="testcases.tc3_verifyLogin">
+        <test-method signature="verifyLogin()[pri:0, instance:testcases.tc3_verifyLogin@1b7cc17c]" started-at="2026-05-13T14:38:41 IST" name="verifyLogin" finished-at="2026-05-13T14:39:00 IST" duration-ms="18527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.tc3_verifyLogin@1b7cc17c]" started-at="2026-05-13T14:39:00 IST" name="getResult" finished-at="2026-05-13T14:39:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=tc3_verifyLogin.verifyLogin()[pri:0, instance:testcases.tc3_verifyLogin@1b7cc17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.tc3_verifyLogin -->
+    </test> <!-- Login Test -->
+    <test started-at="2026-05-13T14:39:00 IST" name="Add To Cart Test" finished-at="2026-05-13T14:39:28 IST" duration-ms="28404">
+      <class name="testcases.tc4_verifyAddToCart">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.tc4_verifyAddToCart@72967906]" started-at="2026-05-13T14:38:10 IST" name="startReport" finished-at="2026-05-13T14:38:10 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testcases.tc4_verifyAddToCart@72967906]" started-at="2026-05-13T14:39:00 IST" name="verifyAddToCart" finished-at="2026-05-13T14:39:28 IST" duration-ms="28401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.tc4_verifyAddToCart@72967906]" started-at="2026-05-13T14:39:28 IST" name="getResult" finished-at="2026-05-13T14:39:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCart status=SUCCESS method=tc4_verifyAddToCart.verifyAddToCart()[pri:0, instance:testcases.tc4_verifyAddToCart@72967906] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.tc4_verifyAddToCart@72967906]" started-at="2026-05-13T14:39:28 IST" name="tearDown" finished-at="2026-05-13T14:39:28 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.tc4_verifyAddToCart -->
+    </test> <!-- Add To Cart Test -->
+  </suite> <!-- Advantage Shopping Suite -->
+</testng-results>
